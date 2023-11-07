@@ -1,4 +1,4 @@
-writeCode
+mkdwriteCode
 
 Create a basic express server
 
@@ -18,7 +18,8 @@ Q. add express.static() as middleware
 - Add images in public to
   - public -> images -> img1.jpg
   - public -> images -> img2.jpg
-- now request from browser on `/images/img1.jpg`
+- now request from browser on `
+`
 - see whether img1.jpg is being served or not ?
 
 2. Add css in public and check whether accessible or not.
