@@ -123,7 +123,7 @@
 //   console.log("server listening to port number 3000");
 // });
 
-//------------- Q. Modify above to include error handler middleware ----------------------
+//--------------- Q. Modify above to include error handler middleware ----------------------
 
 // - a 404 handler for routes which are not handled
 // - a 500 handler for client/server error
