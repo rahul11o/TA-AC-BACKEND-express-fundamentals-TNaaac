@@ -14,6 +14,10 @@ app.use(cookieParser());
 app.use(express.json());
 
 app.use((req, res, next) => {
+  app.use((req, res, next) => {
+    res.cookie("username", "suraj");
+    next();
+  });
   res.cookie("username", "suraj");
   next();
 });
